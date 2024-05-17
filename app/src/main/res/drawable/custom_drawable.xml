@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background bar -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="#C0C0C0" />
+        </shape>
+    </item>
+
+    <!-- Bar fill -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="5dp" />
+                <solid android:color="#928CFF" /> <!-- Adjust the color as needed -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

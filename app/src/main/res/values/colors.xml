@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="polos">#FAFAFA</color>
+
+    <color name="footerbg">#1260CC</color>
+    <color name="footeractive">#FAFAFA</color>
+
+    <color name="primary_color1">#5579C6</color>
+    <color name="transparant">#00FFFFFF</color>
+
+    <color name="colorShape">#5579C6</color>
+    <color name="colorShapeTransparancy">#665579C6</color>
+
+    <color name="colorShape2">#1260CC</color>
+
+    <color name="edit_text">#E5E5E5</color>
+
+    <color name="edit_textDisable">#8CC6C6C6</color>
+
+    <color name="bg_signin">#1260CC</color>
+
+    <color name="checkbox">#5579C6</color>
+
+    <color name="checkbox_regis_on">#5579C6</color>
+
+    <color name="checkbox_regis_off">#E5E5E5</color>
+
+    <color name="stroke_color1">#5579C6</color>
+
+    <color name="text_playlist1">#FFFFFF</color>
+    <color name="text_playlist2">#5579C6</color>
+
+    <color name="thumb_tint">#5579C6</color>
+
+    <color name="background_bantuan">#E0EAFF</color>
+
+    <color name="header_screening">#5579C6</color>
+    <color name="font_timescreening">#9E9E9E</color>
+
+    <color name="bg_sendchat">#FAFAFA</color>
+
+    <color name="bg_nilai">#FAFAFA</color>
+
+    <color name="bg_jawab">#FAFAFA</color>
+
+    <color name="bg_screen">#FFFFFF</color>
+
+    <color name="textday_nonaktif">#0D1019</color>
+    <color name="textday_aktif">#FFFFFF</color>
+
+    <color name="kuisjenis_aktif">#1260CC</color>
+    <color name="stroke_shapekuis">#FFFFFF</color>
+    <color name="bg_kuisgameplay">#5579C6</color>
+    <color name="struk_opsi">#FFFFFF</color>
+
+    <color name="hint_bg1">#E6FFFFFF</color>
+
+
+    <color name="mission_bg1">#FFFFFF</color>
+    <color name="mission_activemenu">#5579C6</color>
+    <color name="mission_nonactivemenu">#FFFFFF</color>
+
+    <color name="mission_strokeactive">#5579C6</color>
+    <color name="mission_strokenonactive">#5579C6</color>
+
+    <color name="mission_templatetext">#5579C6</color>
+
+    <color name="mission_fontcolor1">#FFFFFF</color>
+
+    <color name="mission_notclear">#E5E5E5</color>
+    <color name="mission_clear">#2EE01F</color>
+
+    <color name="historyactivity_positif">#2EE01F</color>
+    <color name="historyactivity_negatif">#B51919</color>
+
+    <color name="gamestatus_bar1">#A21212</color>
+    <color name="gamestatus_bar2">#FF8310</color>
+    <color name="gamestatus_bar3">#FFE500</color>
+    <color name="gamestatus_bar4">#15DB1D</color>
+    <color name="gamestatus_bar5">#18B167</color>
+
+</resources>

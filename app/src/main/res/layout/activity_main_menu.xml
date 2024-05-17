@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/jost_medium"
+        android:text="Alert, Fatal Error"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="8dp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="8dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/verticalglstart"
+        app:layout_constraintEnd_toEndOf="@id/verticalglend"
+        app:layout_constraintTop_toTopOf="@id/horizontaltop"
+        app:layout_constraintBottom_toTopOf="@id/horizontal02"/>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="top"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@id/verticalglstart"
+        app:layout_constraintEnd_toEndOf="@id/verticalglend"
+        app:layout_constraintTop_toBottomOf="@id/horizontal03"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/container_history"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/img1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Warning"
+                            android:textSize="25dp"
+                            android:fontFamily="@font/jost_regular"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_marginTop="7sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kamu Melakukan Kesalahan Fatal"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/jost_light"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_marginTop="7sp"/>
+
+                        <TextView
+                            android:id="@+id/text1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Menginstall Aplikasi dari orang yang tidak dikenal adalah sebuah kesalahan fatal, apalagi aplikasi tersebut langsung diberikan dan di install tidak melalui playstore."
+                            android:textSize="14dp"
+                            android:fontFamily="@font/jost_medium"
+                            android:gravity="start"
+                            android:layout_marginTop="20sp"/>
+
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ini adalah sosial engineering, kami melakukan simulasi dan hanya memberikan edukasi pada orang-orang. Aplikasi ini aman dan tidak ada data yang diambil atau hacking dalam aplikasi ini. "
+                            android:textSize="14dp"
+                            android:fontFamily="@font/jost_medium"
+                            android:gravity="start"
+                            android:layout_marginTop="10sp"/>
+
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Namun jangan sekali-kali lagi menginstall aplikasi yang bersumber dari orang asing dan jikalau itu dari orang yang dikenalpun harap untuk mengkonfirmasikannya kembali."
+                            android:textSize="14dp"
+                            android:fontFamily="@font/jost_medium"
+                            android:gravity="start"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10sp"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#5579C6"/>
+
+                        <TextView
+                            android:id="@+id/text4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sebagai edukasi, ada beberapa hal yang mungkin terjadi jika kamu mengintall aplikasi dari sumber yang tidak dikenal: "
+                            android:textSize="14dp"
+                            android:fontFamily="@font/jost_medium"
+                            android:gravity="start"
+                            android:layout_marginTop="10sp"/>
+
+                        <LinearLayout
+                            android:id="@+id/menu_screeninglagi"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/menubg4"
+                            android:orientation="horizontal">
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/img2"
+                                    android:padding="15dp"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3"
+                                    android:layout_marginEnd="20dp"
+                                    android:text="Malware dan Virus"
+                                    android:textSize="13sp"
+                                    android:textColor="@color/white"
+                                    android:gravity="bottom"
+                                    android:layout_marginTop="3dp"
+                                    android:fontFamily="@font/jost_medium"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.5"
+                                    android:layout_marginEnd="20dp"
+                                    android:text="Dapat merusak perangkat Anda, mencuri data pribadi, atau mengakses informasi sensitif."
+                                    android:textSize="11sp"
+                                    android:textColor="@color/white"
+                                    android:gravity="top"
+                                    android:layout_marginTop="3dp"
+                                    android:fontFamily="@font/jost_medium"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/menubg4"
+                            android:orientation="horizontal">
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/img3"
+                                    android:padding="15dp"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3"
+                                    android:layout_marginEnd="20dp"
+                                    android:text="Hacking"
+                                    android:textSize="13sp"
+                                    android:textColor="@color/white"
+                                    android:gravity="bottom"
+                                    android:layout_marginTop="3dp"
+                                    android:fontFamily="@font/jost_medium"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.5"
+                                    android:layout_marginEnd="20dp"
+                                    android:text="Kerentanan keamanan dapat dimanfaatkan oleh penyerang untuk meretas perangkat Anda. "
+                                    android:textSize="11sp"
+                                    android:textColor="@color/white"
+                                    android:gravity="top"
+                                    android:layout_marginTop="3dp"
+                                    android:fontFamily="@font/jost_medium"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/menubg4"
+                            android:orientation="horizontal">
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/img4"
+                                    android:padding="15dp"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3"
+                                    android:layout_marginEnd="20dp"
+                                    android:text="Kehilangan Data dan Penipuan"
+                                    android:textSize="13sp"
+                                    android:textColor="@color/white"
+                                    android:gravity="bottom"
+                                    android:layout_marginTop="3dp"
+                                    android:fontFamily="@font/jost_medium"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.5"
+                                    android:layout_marginEnd="20dp"
+                                    android:text="Berisiko kehilangan data sensitif anda lalu kemudian data Anda disalahgunakan."
+                                    android:textSize="11sp"
+                                    android:textColor="@color/white"
+                                    android:gravity="top"
+                                    android:layout_marginTop="3dp"
+                                    android:fontFamily="@font/jost_medium"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#5579C6"/>
+
+                        <TextView
+                            android:id="@+id/text5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kami ingatkan kembali untuk tidak lagi menginstall aplikasi dari orang atau sumber yang tidak dikenal"
+                            android:textSize="14dp"
+                            android:fontFamily="@font/jost_medium"
+                            android:gravity="start"
+                            android:layout_marginBottom="20dp"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:id="@+id/button_feedback"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="30dp"
+                            android:background="@drawable/menubg4">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Berikan Feedback"
+                                android:textSize="14dp"
+                                android:fontFamily="@font/jost_medium"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+                        
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalglstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.06" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalglend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.94" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontaltop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.04" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.11" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontalbottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="60dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
